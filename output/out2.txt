@@ -1,60 +1,55 @@
-i'm ok
+i'm ok.
 UNIGRAM MODEL:
 
 UNIGRAM i:
-ENGLISH: P(i) = 1.2457620607 ==> log prob of sentence so far: 1.2457620607
-FRENCH: P(i) = 1.22384761154 ==> log prob of sentence so far: 1.22384761154
-ITALIAN: P(i) = 1.04265045127 ==> log prob of sentence so far: 1.04265045127
-
-UNIGRAM ':
-ENGLISH: P(') = 2.59815064192 ==> log prob of sentence so far: 3.84391270262
-FRENCH: P(') = 2.00505016899 ==> log prob of sentence so far: 3.22889778052
-ITALIAN: P(') = 2.19182933807 ==> log prob of sentence so far: 3.23447978934
+EN: P(i) = 1.2522522049246048 ==> log prob of sentence so far: 1.2522522049246048
+FR: P(i) = 1.2203811333592343 ==> log prob of sentence so far: 1.2203811333592343
+IT: P(i) = 1.0472477222284893 ==> log prob of sentence so far: 1.0472477222284893
 
 UNIGRAM m:
-ENGLISH: P(m) = 1.69434706341 ==> log prob of sentence so far: 5.53825976603
-FRENCH: P(m) = 1.60158977421 ==> log prob of sentence so far: 4.83048755473
-ITALIAN: P(m) = 1.53194304622 ==> log prob of sentence so far: 4.76642283556
-
-UNIGRAM  :
-ENGLISH: P( ) = 0.764751147931 ==> log prob of sentence so far: 6.30301091396
-FRENCH: P( ) = 0.757612867726 ==> log prob of sentence so far: 5.58810042246
-ITALIAN: P( ) = 0.808410649163 ==> log prob of sentence so far: 5.57483348473
+EN: P(m) = 1.70083720763383 ==> log prob of sentence so far: 2.953089412558435
+FR: P(m) = 1.5981232960289413 ==> log prob of sentence so far: 2.8185044293881756
+IT: P(m) = 1.5373060546962816 ==> log prob of sentence so far: 2.584553776924771
 
 UNIGRAM o:
-ENGLISH: P(o) = 1.22102034101 ==> log prob of sentence so far: 7.52403125497
-FRENCH: P(o) = 1.36298449919 ==> log prob of sentence so far: 6.95108492164
-ITALIAN: P(o) = 1.11083110323 ==> log prob of sentence so far: 6.68566458796
+EN: P(o) = 1.2275104852361884 ==> log prob of sentence so far: 4.1805998977946235
+FR: P(o) = 1.3595180210080458 ==> log prob of sentence so far: 4.178022450396221
+IT: P(o) = 1.1152525486846412 ==> log prob of sentence so far: 3.699806325609412
 
 UNIGRAM k:
-ENGLISH: P(k) = 2.15593373403 ==> log prob of sentence so far: 9.67996498901
-FRENCH: P(k) = 3.62523532292 ==> log prob of sentence so far: 10.5763202446
-ITALIAN: P(k) = 5.38411795064 ==> log prob of sentence so far: 12.0697825386
-According to the UNIGRAM model, the sentence is in ENGLISH
+EN: P(k) = 2.162423878259613 ==> log prob of sentence so far: 6.3430237760542365
+FR: P(k) = 3.6217688447393654 ==> log prob of sentence so far: 7.799791295135586
+IT: P(k) = 5.393006885531719 ==> log prob of sentence so far: 9.09281321114113
+According to the UNIGRAM model, the sentence is in EN
 BIGRAM MODEL:
 
-BIGRAM i':
-ENGLISH: P('|i) = 2.68051680938 ==> log prob of sentence so far: 2.68051680938
-FRENCH: P('|i) = 4.97604719728 ==> log prob of sentence so far: 4.97604719728
-ITALIAN: P('|i) = 3.97364895823 ==> log prob of sentence so far: 3.97364895823
+BIGRAM i#:
+EN: P(#|i) = 1.4569972699467215 ==> log prob of sentence so far: 1.4569972699467215
+FR: P(#|i) = 1.0389242120731665 ==> log prob of sentence so far: 1.0389242120731665
+IT: P(#|i) = 0.49086132257175835 ==> log prob of sentence so far: 0.49086132257175835
 
-BIGRAM 'm:
-ENGLISH: P(m|') = 1.91797123302 ==> log prob of sentence so far: 4.5984880424
-FRENCH: P(m|') = 4.97604719728 ==> log prob of sentence so far: 9.95209439457
-ITALIAN: P(m|') = 3.75273969394 ==> log prob of sentence so far: 7.72638865216
+BIGRAM #m:
+EN: P(m|#) = 1.4073336618071934 ==> log prob of sentence so far: 2.8643309317539147
+FR: P(m|#) = 1.2308755758868302 ==> log prob of sentence so far: 2.2697997879599967
+IT: P(m|#) = 1.1110606512281733 ==> log prob of sentence so far: 1.6019219737999317
 
-BIGRAM m :
-ENGLISH: P( |m) = 0.80235791757 ==> log prob of sentence so far: 5.40084595997
-FRENCH: P( |m) = 1.92419769777 ==> log prob of sentence so far: 11.8762920923
-ITALIAN: P( |m) = 3.63081419473 ==> log prob of sentence so far: 11.3572028469
+BIGRAM m#:
+EN: P(#|m) = 0.7451225493867716 ==> log prob of sentence so far: 3.609453481140686
+FR: P(#|m) = 1.5496626496993977 ==> log prob of sentence so far: 3.8194624376593946
+IT: P(#|m) = 1.7049172513965207 ==> log prob of sentence so far: 3.3068392251964527
 
-BIGRAM  o:
-ENGLISH: P(o| ) = 1.17616857625 ==> log prob of sentence so far: 6.57701453622
-FRENCH: P(o| ) = 1.88112063095 ==> log prob of sentence so far: 13.7574127233
-ITALIAN: P(o| ) = 1.78881168271 ==> log prob of sentence so far: 13.1460145296
+BIGRAM #o:
+EN: P(o|#) = 1.1861921089445635 ==> log prob of sentence so far: 4.7956455900852495
+FR: P(o|#) = 1.7358829037206827 ==> log prob of sentence so far: 5.555345341380077
+IT: P(o|#) = 1.718985038948608 ==> log prob of sentence so far: 5.025824264145061
 
 BIGRAM ok:
-ENGLISH: P(k|o) = 1.876711241 ==> log prob of sentence so far: 8.45372577722
-FRENCH: P(k|o) = 3.40530513537 ==> log prob of sentence so far: 17.1627178587
-ITALIAN: P(k|o) = 3.75273969394 ==> log prob of sentence so far: 16.8987542235
-According to the BIGRAM model, the sentence is in ENGLISH
+EN: P(k|o) = 1.8809505917313456 ==> log prob of sentence so far: 6.6765961818165955
+FR: P(k|o) = 3.4053051353711417 ==> log prob of sentence so far: 8.96065047675122
+IT: P(k|o) = 4.509323516321489 ==> log prob of sentence so far: 9.535147780466549
+
+BIGRAM k#:
+EN: P(#|k) = 0.48264242106315125 ==> log prob of sentence so far: 7.159238602879746
+FR: P(#|k) = 0.6724023766920785 ==> log prob of sentence so far: 9.633052853443298
+IT: P(#|k) = 0.9542425094393249 ==> log prob of sentence so far: 10.489390289905874
+According to the BIGRAM model, the sentence is in EN
